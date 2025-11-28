@@ -1,5 +1,7 @@
 using DMSubmission.BusinessLogic;
-using DMSubmission.Services;
+using Infrastructure.ExternalAPIServices;
+using Infrastructure.Interfaces;
+using Infrastructure.Objects;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
